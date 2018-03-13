@@ -1,0 +1,41 @@
+.manageList-wrap{
+  .manageList-top-wrap{
+    position: relative;
+    .manageList-title{
+      @include title;
+    }
+    .manageList-btn-group{
+      @include p_a(10px,0);
+    }
+  }
+  .el-tabs__header{
+    width: 50%;
+  }
+  .is-leaf{
+    @include b_c($--color-primary);
+    color: #ffffff;
+  }
+  .el-tabs__content{
+    margin-top: 5px;
+  }
+  .pagination-wrap{
+    text-align: center;
+    padding: 20px 0;
+  }
+  .el-table__row {
+    td{
+      color: $blue;
+    }
+  }
+  .editStyle{
+    color: $--color-primary;
+    font-size: 12px;
+    padding-right: 10px;
+  }
+  .el-tabs__item{
+    color: #8492A6;
+  }
+  .is-active{
+    color: $--color-primary !important;
+  }
+}

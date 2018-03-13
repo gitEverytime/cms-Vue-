@@ -1,0 +1,68 @@
+.versionManage-wrap{
+  padding-top: 56px;
+  position: relative;
+  .versionManage-title{
+    @include title;
+  }
+  .editStyle{
+    color: #DE5E17;
+    font-size: 12px;
+  }
+  .insertBtn{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 8px 40px;
+  }
+  .pagination-wrap{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .has-gutter tr th{
+    background-color: $--color-primary;
+    color: #ffffff;
+  }
+  .upload-demo{
+    display: inline-block;
+  }
+  .el-dialog{
+    width:351px;
+    .el-dialog__header,.el-dialog__footer{
+      padding: 25px 30px;
+    }
+    .el-dialog__footer{
+      padding-top: 0px;
+    }
+    .el-dialog__body{
+      padding: 0 30px;
+    }
+    .el-input__inner{
+      width: 176px;
+      height: 36px;
+    }
+    .el-form-item__label{
+      width: 113px !important;
+      &:before{
+        content: '';
+        margin-right: 0px;
+      }
+    }
+    .el-form-item__content{
+      margin-left: 113px !important;
+    }
+    .upload-wrap{
+      .el-form-item__content{
+        margin-left: 22px !important;
+      }
+    }
+    .footer{
+      padding-bottom: 25px;
+      .el-form-item__content{
+        margin-left: 0!important;
+      }
+      .el-button--primary{
+        width: 100%;
+      }
+    }
+  }
+}

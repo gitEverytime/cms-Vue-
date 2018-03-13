@@ -1,0 +1,54 @@
+/**
+导航组件
+ */
+@mixin title(){
+  height: 64px;
+  line-height: 64px;
+  //margin-bottom: 30px;
+  color: $gray;
+  font-size: $f_20;
+}
+
+/**
+标题样式
+ */
+.title{
+  @include title;
+}
+
+/**
+添加按钮样式
+ */
+.insertBtn{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding: 8px 40px !important;
+}
+
+/**
+分页居中
+ */
+.pagination-wrap{
+  text-align: center;
+  margin-top: 20px;
+}
+
+/**
+搜索区块
+ */
+.search-wrap{
+  position: absolute;
+  top: -4px;
+  right: 0;
+  z-index: 200;
+  .el-select{
+    height: 35px;
+  }
+  .el-input{
+    width: 150px;
+    height: 35px;
+  }
+}
+
+

@@ -1,0 +1,32 @@
+.agentDetail-wrap{
+  padding-top: 20px;
+  .el-form{
+    padding-top: 30px;
+    .el-input__inner{
+      width: 193px;
+    }
+  }
+  .linkTel {
+    .el-form-item__label:before {
+        content: '*';
+        color: #f56c6c;
+        margin-right: 4px;
+    }
+
+  }
+  .insertArea{
+    height: 20px;
+    position: relative;
+    width: 200px;
+    .delete-btn{
+      position: absolute;
+      top: 12px;
+      right: 0;
+      color: $--color-primary;
+      cursor: pointer;
+    }
+    span{
+      line-height: 1;
+    }
+  }
+}

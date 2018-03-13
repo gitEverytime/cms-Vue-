@@ -1,0 +1,17 @@
+.deviceDetail-wrap{
+  padding-top: 20px;
+  .manageList-title{
+    @include title
+  }
+  .el-breadcrumb{
+    margin-bottom: 30px;
+  }
+  .has-gutter tr th{
+    background-color: $--color-primary;
+    color: #ffffff;
+  }
+  .pagination-wrap{
+    text-align: center;
+    margin-top: 20px;
+  }
+}

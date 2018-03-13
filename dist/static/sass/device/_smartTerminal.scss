@@ -1,0 +1,54 @@
+.smartTerminal-wrap{
+  padding-top: 56px;
+  position: relative;
+  .insertBtn{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 8px 40px;
+  }
+  .manageList-title{
+    @include title;
+  }
+  .has-gutter tr th{
+    background-color: $--color-primary;
+    color: #ffffff;
+  }
+  .el-dialog{
+    width:307px;
+    .el-dialog__header,.el-dialog__footer{
+      padding: 25px 30px;
+    }
+    .el-dialog__footer{
+      padding-top: 0px;
+    }
+    .el-dialog__body{
+      padding: 0 30px;
+    }
+    .el-input__inner{
+      width: 176px;
+      height: 36px;
+    }
+    .el-form-item__label{
+      width: 70px !important;
+      &:before{
+        content: '';
+        margin-right: 0px;
+      }
+    }
+    .el-form-item__content{
+      margin-left: 71px !important;
+    }
+    .footer{
+      padding-bottom: 25px;
+      .el-form-item__content{
+        margin-left: 0!important;
+      }
+      .el-button--primary{
+        width: 100%;
+      }
+    }
+  }
+
+
+}

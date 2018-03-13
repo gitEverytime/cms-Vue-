@@ -1,0 +1,29 @@
+
+.agent-wrap{
+  padding-top: 65px;
+  .el-checkbox{
+    margin-left: 10px !important;
+  }
+  .el-dialog__body{
+    padding: 0 15px;
+  }
+  .el-dialog__footer{
+    text-align: center;
+  }
+  .editStyle{
+    color: $--color-primary;
+    font-size: 12px;
+    padding-right: 10px;
+  }
+  .org_width{
+    .el-dialog{
+      width: 300px;
+    }
+    .el-button{
+      width: 100%;
+    }
+    .sp_dis{
+      display: block;
+    }
+  }
+}

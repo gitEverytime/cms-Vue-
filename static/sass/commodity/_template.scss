@@ -1,0 +1,21 @@
+.template_wrap{
+  margin-top: 20px;
+  .template_title_wrap{
+    margin-top: 33px;
+    margin-bottom: 20px;
+    position: relative;
+    h3{
+      font-size: 18px;
+      color: #8896A5;
+    }
+    .insertBtn{
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+  .el-table__header tr th{
+    background-color: $--color-primary;
+    color: #ffffff;
+  }
+}

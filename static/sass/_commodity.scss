@@ -1,0 +1,27 @@
+.test{
+  @include b_c($--color-primary);
+  height: 50px;
+  @include tran(100px,2s,linear,0s);
+  &:hover{
+   width: 200px;
+  }
+}
+/**
+商品列表样式表
+ */
+@import "commodity/manageList";
+
+/**
+新增商品样式表
+ */
+@import "commodity/manageInsert";
+
+/**
+类目设置样式表
+ */
+@import "commodity/categorySet";
+
+/**
+运费模版样式表
+ */
+@import "commodity/template";

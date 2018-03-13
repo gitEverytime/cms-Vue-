@@ -1,0 +1,49 @@
+/**
+设备列表
+ */
+@import "device/deviceList";
+
+/**
+设备详情
+ */
+@import "device/deviceDetail";
+
+/**
+升级日志
+ */
+@import "commodity/upgradeDetail";
+
+/**
+异常设备
+ */
+@import "device/abnormalDevice";
+
+/**
+智能终端
+ */
+@import "device/smartTerminal";
+
+/**
+任务列表
+ */
+@import "device/taskList";
+
+/**
+类型管理
+ */
+@import "device/typeManage";
+
+/**
+版本管理
+ */
+@import "device/versionManage";
+
+/**
+历史记录
+ */
+@import "device/historyRecords";
+
+/**
+类型详情
+ */
+@import "device/typeEdit";

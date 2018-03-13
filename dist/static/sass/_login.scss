@@ -1,0 +1,82 @@
+.content{
+  width: 100%;
+  overflow: hidden;
+  height:100%;
+  min-height:800px;
+  position: relative;
+  margin:0 auto -25px;
+  .el-form-item__content{
+    margin-left: 0 !important;
+  }
+  .loginBtn{
+    width: 260px;
+  }
+  .login-title{
+    border-bottom: 2px solid #0e0e0e;
+    width: 40px;
+    clear: both;
+    margin: 0 auto 30px;
+  }
+  .demo-ruleForm{
+    padding: 10px 0;
+    text-align: left;
+  }
+  .forgetPass{
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+  }
+  .cl_fix{
+    clear: both;
+    padding-top: 10px;
+  }
+  input,button{
+    height: 35px;
+  }
+
+}
+.indexlogo{
+  position: absolute;
+  left: 50%;
+  top:60px;
+  margin-left:-87px;
+  width:179px;
+  height:27px;
+}
+.content-login,.content-register,.login-content{
+  width: 340px;
+  height:410px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 30px #cdcbcb;
+  position: absolute;
+  left:50%;
+  top:240px;
+  margin-left:-170px;
+  text-align: center;
+  padding:40px;
+  background:#fff;
+  padding-top:49px;
+  background:url('/static/images/loginbg.png') top center no-repeat;
+  background-color: #fff;
+}
+.baixiong{
+  width: 130px;
+  height:auto;
+  position: absolute;
+  left: 50%;
+  top:-89px;
+  margin-left:-65px;
+}
+.copyright {
+  clear: both;
+  color: #999;
+  text-align: center;
+  width: 100%;
+}
+.avatar-uploader{
+  display: inline-block;
+}

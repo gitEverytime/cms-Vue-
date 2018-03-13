@@ -1,0 +1,10 @@
+.record-wrap{
+  padding-top: 20px;
+  .el-table{
+    margin-top: 30px;
+  }
+  .has-gutter tr th{
+    background-color: $--color-primary;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,35 @@
+.orderDetail-wrap{
+  position: relative;
+  padding-top: 20px;
+  .rowTop{
+    padding-top: 30px;
+    .el-col{
+      @include nowrap;
+    }
+  }
+  .el-steps{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .has-gutter tr th{
+    background-color: $--color-primary !important;
+    color: #ffffff !important;
+  }
+  .isActive{
+    .el-step__head{
+      color: $--color-primary;
+      border-color: $--color-primary;
+      .el-step__line{
+        background-color: $--color-primary;
+      }
+    }
+    .el-step__main{
+      .el-step__title{
+        color: $--color-primary;
+      }
+      .el-step__description{
+        color: $--color-primary;
+      }
+    }
+  }
+}

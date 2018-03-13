@@ -1,0 +1,25 @@
+.financialCount-wrap{
+  padding-top: 65px;
+  position: relative;
+  .search-top{
+    top:20px;
+  }
+  .el-input{
+    width: 200px;
+  }
+  .editStyle{
+    font-size: 12px;
+    color: $--color-primary;
+  }
+  .has-gutter tr th{
+    background-color: $--color-primary !important;
+    color: #ffffff !important;
+  }
+  .totalPrice{
+    padding-top: 50px;
+    text-align: right;
+    span{
+      color: $--color-primary;
+    }
+  }
+}

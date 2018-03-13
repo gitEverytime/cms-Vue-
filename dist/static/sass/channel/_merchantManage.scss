@@ -1,0 +1,10 @@
+.merchantManage-wrap{
+  position: relative;
+  .has-gutter tr th{
+    background-color: $--color-primary;
+    color: #ffffff;
+  }
+  .cell{
+    @include nowrap;
+  }
+}

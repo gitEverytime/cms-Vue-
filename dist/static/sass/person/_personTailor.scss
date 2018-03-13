@@ -1,0 +1,11 @@
+.personTailor-wrap{
+  position: relative;
+  padding-top: 40px;
+  .has-gutter tr th{
+    background-color: $--color-primary !important;
+    color: #ffffff !important;
+  }
+  .el-button--text{
+    color: #DE5E17 !important;
+  }
+}

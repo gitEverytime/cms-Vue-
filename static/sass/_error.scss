@@ -1,0 +1,32 @@
+.error_header{
+  background-color: $--color-primary;
+  height: 60px;
+  padding: 0 40px;
+  text-align: right;
+  color: #C0CCDA;
+  font-size: 16px;
+  line-height: 60px;
+}
+.error_wrap{
+  @include center_one;
+  .error_content{
+    text-align: center !important;
+    h2{
+      font-size: 20px;
+      color: #000000;
+      letter-spacing: 0;
+      margin-top: 40px;
+    }
+    p{
+      font-size: 16px;
+      color: #757D86;
+      letter-spacing: 0;
+      line-height: 35px;
+    }
+    img{
+      margin-top: 50px;
+      width: 450px;
+      height: 220px;
+    }
+  }
+}

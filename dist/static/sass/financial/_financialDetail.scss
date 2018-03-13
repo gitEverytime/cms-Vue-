@@ -1,0 +1,48 @@
+.financialDetail-wrap{
+  padding-top: 20px;
+  .baseMsg{
+    padding: 30px 0;
+    li{
+      span{
+        color:#aeaeae;
+      }
+      label{
+        margin-right: 30px;
+      }
+    }
+  }
+  .isActive{
+    .el-step__head{
+      color: $--color-primary;
+      border-color: $--color-primary;
+      .el-step__line{
+        background-color: $--color-primary;
+      }
+    }
+    .el-step__main{
+      .el-step__title{
+        color: $--color-primary;
+      }
+      .el-step__description{
+        color: $--color-primary;
+      }
+    }
+  }
+  .has-gutter tr th{
+    background-color: $--color-primary !important;
+    color: #ffffff !important;
+  }
+  .el-steps{
+    margin-bottom: 30px;
+  }
+  .el-table{
+    width: 100%;
+  }
+  .totalPrice{
+    padding-top: 50px;
+    text-align: right;
+    span{
+      color: $--color-primary;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/**
+长宽定义:如果长度任一不填请补零
+ */
+@mixin w_h($width,$height){
+  width: $width;
+  height: $height;
+}
+
+/**
+背景色的定义
+ */
+@mixin b_c($color){
+  background-color: $color;
+}

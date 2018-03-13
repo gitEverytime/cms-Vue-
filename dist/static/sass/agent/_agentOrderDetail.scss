@@ -1,0 +1,49 @@
+.agentOrderDetail-wrap {
+  .el-steps{
+    margin-top: 30px;
+  }
+  .row{
+    line-height: 100px;
+    overflow: hidden;
+    .picSize{
+      width: 100px;
+      height: 100px;
+      float: left;
+    }
+    span{
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+  .line{
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #ebeef5;
+    .item_title{
+      font-size: 16px;
+      color: #1F2D3D;
+      letter-spacing: 0;
+    }
+    .item_prompt{
+      font-size: 18px;
+      color: #8896A5;
+    }
+  }
+  .isActive {
+    .el-step__head {
+      color: $--color-primary;
+      border-color: $--color-primary;
+      .el-step__line {
+        background-color: $--color-primary;
+      }
+    }
+    .el-step__main {
+      .el-step__title {
+        color: $--color-primary;
+      }
+      .el-step__description {
+        color: $--color-primary;
+      }
+    }
+  }
+}

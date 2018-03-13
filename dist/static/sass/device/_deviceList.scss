@@ -1,0 +1,46 @@
+.deviceList-wrap{
+  .manageList-title{
+    @include title;
+  }
+  .has-gutter tr th{
+    background-color: $--color-primary;
+    color: #ffffff;
+  }
+  .el-input-group__append{
+    background-color: $--color-primary;
+    border: $--color-primary solid 1px;
+    .el-icon-search{
+      color: #ffffff;
+    }
+  }
+  .mar_10{
+    margin-left: 0!important;
+  }
+  .pagination-wrap{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .editStyle{
+    color: $--color-primary;
+    font-size: 12px;
+  }
+  .el-tabs__content{
+    overflow: inherit;
+  }
+  .el-tab-pane{
+    position: relative;
+    .tab-promptText{
+      position: absolute;
+      top:-50px;
+      right:0;
+    }
+    .tab-promptText2{
+      position: absolute;
+      top:-60px;
+      right:0;
+    }
+  }
+  .orangeColor{
+    color: $--color-primary;
+  }
+}

@@ -1,0 +1,68 @@
+/**
+头部
+ */
+.el-table tr th{
+  background-color: $--color-primary !important;
+  color: #ffffff !important;
+}
+.el-input-group__append{
+  background-color: $--color-primary !important;
+  border: $--color-primary solid 1px !important;
+  .el-icon-search{
+    color: #ffffff !important;
+  }
+}
+
+/**
+左半部分样式
+ */
+.asideLeft-wrap{
+  .asideLeft-title{
+    height: 64px;
+    line-height: 64px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .el-menu{
+    @include b_c(#545c64);
+    border-right: none;
+    .el-menu-item{
+      &:hover,&:focus{
+        @include b_c(rgb(67,74,80));
+      }
+    }
+
+    .is-active a{
+      color: rgb(255, 208, 75);
+      display: block;
+    }
+    .el-menu-item a{
+      color: #ffffff;
+      display: block;
+    }
+  }
+  .el-submenu__title:hover{
+    background-color: inherit;
+  }
+}
+/**
+右半部分
+ */
+.mainRight-wrap{
+  position: relative;
+  .admin-wrap{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    img{
+      @include w_h(36px,36px);
+      @include radius(50%);
+    }
+    .el-dropdown{
+      float: right;
+      margin-top: 10px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.customQuestion-wrap{
+  .editStyle{
+    color: $--color-primary;
+    font-size: 12px;
+    padding-right: 10px;
+  }
+  .has-gutter tr th{
+    background-color: $--color-primary;
+    color: #ffffff;
+  }
+  .cell{
+    @include nowrap;
+  }
+}

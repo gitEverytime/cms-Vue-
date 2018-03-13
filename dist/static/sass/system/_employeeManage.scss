@@ -1,0 +1,51 @@
+.employeeManage-wrap{
+  position: relative;
+  .has-gutter tr th{
+    background-color: $--color-primary !important;
+    color: #ffffff !important;
+  }
+  .el-tabs{
+    position: relative;
+    .insertEmployee{
+
+    }
+  }
+  .el-dialog{
+    width:320px;
+    .el-dialog__header,.el-dialog__footer{
+      padding: 25px 30px;
+    }
+    .el-dialog__footer{
+      padding-top: 0px;
+    }
+    .el-dialog__body{
+      padding: 0 30px;
+    }
+    .el-input__inner{
+      width: 189px;
+      height: 36px;
+    }
+    .el-form-item__label{
+      width: 70px !important;
+      &:before{
+        content: '';
+        margin-right: 0px;
+      }
+    }
+    .el-form-item__content{
+      margin-left: 71px !important;
+    }
+    .footer{
+      padding-bottom: 25px;
+      .el-form-item__content{
+        margin-left: 0!important;
+      }
+      .el-button--primary{
+        width: 100%;
+      }
+    }
+  }
+  .el-select__tags{
+    //overflow-x: auto;
+  }
+}

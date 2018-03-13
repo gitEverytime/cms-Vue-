@@ -1,0 +1,173 @@
+
+// 定长宽，绝对居中
+@mixin center($width, $height) {
+  position: absolute;
+  left:50%;
+  top:50%;
+  width:$width;
+  height:$height;
+  margin:(-$height / 2) 0 0 (-$width / 2);
+}
+// 设置动画名称
+@mixin animation($aniName) {
+  -webkit-animation:$aniName;
+  -moz-animation:$aniName;
+  -o-animation:$aniName;
+  animation:$aniName;
+}
+// 设置延迟执行时间
+@mixin animation-delay($time) {
+  -webkit-animation-delay:$time;
+  -moz-animation-delay:$time;
+  -o-animation-delay:$time;
+  animation-delay:$time;
+}
+// 设置阴影
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow:$shadow;
+  -moz-box-shadow:$shadow;
+  -o-box-shadow:$shadow;
+  box-shadow:$shadow;
+}
+// 圆角
+@mixin border-radius($radius) {
+  -webkit-border-radius:$radius;
+  -moz-border-radius:$radius;
+  -o-border-radius:$radius;
+  border-radius:$radius;
+}
+// 设置过渡
+@mixin transition($transition...) {
+  -webkit-transition:$transition;
+  -moz-transition:$transition;
+  -o-transition:$transition;
+  transition:$transition;
+}
+// 设置旋转位置
+@mixin transform-origin($origin...) {
+  -webkit-transform-origin:$origin;
+  -moz-transform-origin:$origin;
+  -o-transform-origin:$origin;
+  transform-origin:$origin;
+}
+@mixin transform($transform...) {
+  -webkit-transform:$transform;
+  -moz-transform:$transform;
+  -o-transform:$transform;
+  transform:$transform;
+}
+//旋转
+@mixin rotate($width,$height,$deg) {
+  width: $width;
+  height: $height;
+  transform: rotate($deg);
+  -webkit-transform: rotate($deg);
+  -moz-transform: rotate($deg);
+  -ms-transform: rotate($deg);
+  -o-transform: rotate($deg);
+}
+//位移
+@mixin translate($x,$y){
+  transform: translate($x,$y);
+  -webkit-transform: translate($x,$y);
+  -moz-transform: translate($x,$y);
+  -o-transform: translate($x,$y);
+  -ms-transform: translate($x,$y);
+}
+//尺寸放大缩小
+@mixin scale($x,$y) {
+  transform: scale($x,$y);
+  -webkit-transform: scale($x,$y);
+  -moz-transform: scale($x,$y);
+  -ms-transform: scale($x,$y);
+  -o-transform: scale($x,$y);
+}
+//翻转
+@mixin skew($x,$y) {
+  transform: skew($x,$y);
+  -webkit-transform: skew($x,$y);
+  -moz-transform: skew($x,$y);
+  -o-transform: skew($x,$y);
+  -ms-transform: skew($x,$y);
+}
+//宽度属性的过渡效果，必须是元素的:hover效果,参数一：元素想要伸缩的宽度，参数二：持续的秒数
+@mixin transition_width($width,$second){
+  width: $width;
+  transition: width $second linear;
+  -webkit-transition: width $second linear;
+  -moz-transition: width $second linear;
+  -o-transition: width $second linear;
+}
+
+//高度，宽度转化添加过渡效果:hover效果变大，
+@mixin transition_w_h($width,$height,$second){
+  cursor: pointer;
+  width:$width;
+  height: $height;
+  transition: width $second,height $second,transform $second;
+  -webkit-transition: width $second,height $second,transform $second;
+  -moz-transition: width $second,height $second,transform $second;
+  -o-transition: width $second,height $second,transform $second;
+  /**
+  不支持 internet explorer
+   */
+}
+/**
+transition:过渡属性
+transition-property :规定过渡的css属性的名称
+transition-duration:规定过渡效果话费的时间
+transition-timing-function:规定过渡的时间曲线
+transition-delay:规定过渡效果何时开始
+ */
+@mixin tran($width,$dur,$tim,$delay){
+  width: $width;
+  transition:width $dur $tim $delay;
+  -webkit-transition:width $dur $tim $delay;
+  -moz-transition:width $dur $tim $delay;
+  -o-transition:width $dur $tim $delay;
+  /**
+  不支持internet explorer
+   */
+}
+// css动画效果：animation :动画的名称，动画的时长
+//@mixin animation($name,$time) {
+//  animation: $name $time;
+//  -webkit-animation: $name $time;
+//  -moz-animation: $name $time;
+//  -o-animation: $name $time;
+//}
+//@mixin keyframes ($name){
+//  @mixin animation;
+//  @keyframes myfirst {
+//    from{background: red}
+//    to{background: yellow}
+//  }
+//}
+
+//上下左右居中
+@mixin center_one() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+
+@mixin p_a($x,$y){
+  position: absolute;
+  top:$x;
+  right: $y;
+}
+
+@mixin nowrap(){
+  overflow: hidden !important;/*超出部分隐藏*/
+  white-space: nowrap !important;/*不换行*/
+  text-overflow:ellipsis !important;/*超出部分文字以...显示*/
+}
+
+
+
